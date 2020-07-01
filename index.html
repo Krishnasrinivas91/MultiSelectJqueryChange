@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div><b>
+            Select Volvo Or opel to see the extra message
+        </b>
+        </div>
+        <br />
+        <br />
+        <div>
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars" multiple style="width: 10%;">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+<br />
+        <div id="hdnOne" style="display: none; color:red; font-weight: 500;">
+            This message will display if Volvo Or Opel selected
+        </div>
+    </body>
+</html>
